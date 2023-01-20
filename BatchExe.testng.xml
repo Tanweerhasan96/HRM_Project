@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="Hr_Head_Login.CreateCorporate"/>
+      <class name="Hr_Head_Login.CreateEmployee"/>
+      <class name="Hr_Head_Login.CreateBranchHrHead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
